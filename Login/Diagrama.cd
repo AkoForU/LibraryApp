@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Login.view.BookCoverPage">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIQAAgAAACAgABhEEAiAABAjAAACAAABLCAAIQAhIgA=</HashCode>
+      <FileName>view\BookCoverPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.loginform">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAQACAAADAABgCAAAgCh0CQAQAgACQAAIBAAgA=</HashCode>
+      <FileName>view\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.view.MainPageOfLibrary">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Login.view.MainPageOfLibrary.BookCover" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>view\MainPageOfLibrary.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Login.view.MainPageOfLibrary.Cover" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>view\MainPageOfLibrary.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>/z3MbkARgHQxwhgRBijWQAAChkGdY5AgLKIAIZjwABc=</HashCode>
+      <FileName>view\MainPageOfLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.view.Register">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAgAAACBAABAACACAAQAChQEwAYggAKAAIAAgBAA=</HashCode>
+      <FileName>view\Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowPanel">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAABAABAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAg=</HashCode>
+      <FileName>model\ShadowPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoundTextBoxSearch">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAAABQAAACAAAAEAAAAAAAAAAQAAAAIA=</HashCode>
+      <FileName>model\roundtextsearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoundTextBox">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAAABQAAACAAAAEAAAAAAAAAAQAAAAIA=</HashCode>
+      <FileName>model\roundtext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.model.RoundPanel">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABQAAACAAAAEAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>model\RoundPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.model.RoundButton">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABQAAACAAAAEAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>model\RoundButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.model.books">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAECQAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\books.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.model.BookContext">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\BookContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
