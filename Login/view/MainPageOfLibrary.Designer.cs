@@ -32,8 +32,8 @@ namespace Login.view
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPageOfLibrary));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             CloseBt = new PictureBox();
             timer1 = new System.Windows.Forms.Timer(components);
             label1 = new Label();
@@ -93,6 +93,7 @@ namespace Login.view
             comboBox1 = new ComboBox();
             datashow = new DataGridView();
             raportlabel = new Label();
+            label19 = new Label();
             ((System.ComponentModel.ISupportInitialize)CloseBt).BeginInit();
             paneluser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -326,6 +327,7 @@ namespace Login.view
             // 
             // addpanel
             // 
+            addpanel.Controls.Add(label19);
             addpanel.Controls.Add(daterelease);
             addpanel.Controls.Add(label16);
             addpanel.Controls.Add(label15);
@@ -727,21 +729,21 @@ namespace Login.view
             // 
             // datashow
             // 
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridViewCellStyle1.ForeColor = Color.Black;
-            datashow.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            datashow.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             datashow.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             datashow.BackgroundColor = SystemColors.ButtonFace;
             datashow.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.White;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle2.ForeColor = Color.Black;
-            dataGridViewCellStyle2.Padding = new Padding(10, 0, 0, 0);
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            datashow.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle4.ForeColor = Color.Black;
+            dataGridViewCellStyle4.Padding = new Padding(10, 0, 0, 0);
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle4.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            datashow.DefaultCellStyle = dataGridViewCellStyle4;
             datashow.Location = new Point(3, 46);
             datashow.Name = "datashow";
             datashow.ReadOnly = true;
@@ -760,15 +762,25 @@ namespace Login.view
             raportlabel.TabIndex = 5;
             raportlabel.Text = "Raport";
             // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Century Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label19.Location = new Point(224, 80);
+            label19.Name = "label19";
+            label19.Size = new Size(83, 27);
+            label19.TabIndex = 11;
+            label19.Text = "Cover";
+            // 
             // MainPageOfLibrary
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(921, 523);
-            Controls.Add(raportpanel);
             Controls.Add(mainpage);
             Controls.Add(panel1);
+            Controls.Add(raportpanel);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainPageOfLibrary";
@@ -858,5 +870,6 @@ namespace Login.view
         private DataGridView datashow;
         private ComboBox comboBox1;
         private Label label17;
+        private Label label19;
     }
 }

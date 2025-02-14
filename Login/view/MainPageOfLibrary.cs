@@ -185,6 +185,7 @@ namespace Login.view
         //book add
         private void addbooks(object sender, EventArgs e)
         {
+            raportpanel.Visible = false;
             settingpage.Visible = false;
             addpanel.Visible = true;
             bar.Location = new Point(61, addbt.Location.Y);
