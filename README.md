@@ -4,10 +4,12 @@ LibraryApp is a Windows Forms application developed in C# using .NET 8 in Visual
 Table of Contents
 
     Features
+    System Requirements
     Prerequisites
     Installation
     Usage
     Security
+    Contributions
     License
     Acknowledgments
 
@@ -34,11 +36,18 @@ Features
     Authentication System:
         Users must log in with a username and password to access the application's functionalities.
         Passwords are secured using SHA-256 encryption.
+        The login and registration system is adapted from the LoginRegister project, which features a design with a blurred background and operates with a local SQL database.
+
+System Requirements
+
+    Operating System: Windows 7 or Windows 10.
+    Storage: Approximately 128 MB of available space.
+    Memory: 256 MB of RAM.
+    Processor: Core Duo
 
 Prerequisites
 
-    Operating System: Windows 7 or Windows 10.
-    .NET 8 or later
+    .NET Framework: Ensure the appropriate version is installed.
     Development Environment: Visual Studio.
 
 Installation
@@ -53,7 +62,7 @@ Installation
     Open the Biblioteca.sln file in Visual Studio.
 
     Database Configuration:
-        Set up a local database to store information about books, users, and loans.
+        Set up a local SQL database to store information about books, users, and loans.
         Update the connection string in the application's configuration file to match your SQL Server instance.
 
     Build and Run:
@@ -74,8 +83,7 @@ Usage
 
 Security
 
-To ensure the security of user data, the application uses SHA-256 encryption for password storage. This guarantees that passwords are protected against unauthorized access.
-Contributions
+    To ensure the security of user data, the application uses SHA-256 encryption for password storage. This guarantees that passwords are protected against unauthorized access.
 
 
 License
