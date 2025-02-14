@@ -47,7 +47,7 @@ System Requirements
 
 Prerequisites
 
-    .NET Framework: Ensure the appropriate version is installed.
+    .NET 8 or later
     Development Environment: Visual Studio.
 
 Installation
@@ -60,10 +60,6 @@ Installation
     Open the Solution:
 
     Open the Biblioteca.sln file in Visual Studio.
-
-    Database Configuration:
-        Set up a local SQL database to store information about books, users, and loans.
-        Update the connection string in the application's configuration file to match your SQL Server instance.
 
     Build and Run:
 
